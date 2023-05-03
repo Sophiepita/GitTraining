@@ -61,6 +61,7 @@ public class MainNIO {
                 Files.write(myFile, ligne, CREATE);
             } catch (IOException e) {
                 System.out.println("Erreur d'écriture");
+                e.printStackTrace();
             }
         }
         else{
