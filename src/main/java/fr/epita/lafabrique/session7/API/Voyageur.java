@@ -1,6 +1,8 @@
 package fr.epita.lafabrique.session7.API;
 
 public class Voyageur {
+
+    // Exercice à revoir
     private int identifiant;
     private String numeroSiege;
     private Classe classe;
