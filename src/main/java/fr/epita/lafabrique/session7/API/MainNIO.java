@@ -41,7 +41,7 @@ public class MainNIO {
                 e.printStackTrace();
             }
         } else {
-            System.out.println("Le fichier n'existe pas");
+            System.out.println("Le fichier n'existe pas (du Else)");
         }
         System.out.println("Nombre de mots de la comptine : " + nbOccurrence);
 
